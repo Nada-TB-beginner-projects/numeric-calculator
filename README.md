@@ -1,2 +1,4 @@
 # numeric-calculator
-![interface](numeric_calculator.png)
+
+##view result here [github](https://nada-tb.github.io/numeric-calculator/)
+
