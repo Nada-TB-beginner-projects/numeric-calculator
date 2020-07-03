@@ -26,7 +26,7 @@ function result(){
 
 
 /**************************Events**********************************/
-outPut.addEventListener('keypress', function(){
+outPut.addEventListener('keypress', function(e){
 	e.preventDefault();
 });
 clearbtn.addEventListener('click', clear);
