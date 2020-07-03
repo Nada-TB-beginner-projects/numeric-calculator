@@ -26,6 +26,9 @@ function result(){
 
 
 /**************************Events**********************************/
+outPut.addEventListener('keypress', function(){
+	e.preventDefault();
+});
 clearbtn.addEventListener('click', clear);
 for (var i = 0; i < number.length; i++) {
 	number[i].addEventListener('click', btnClick);
