@@ -20,7 +20,7 @@ function btnClick(){
 function result(){
 	var result;
 	result=eval(outPut.value);
-	
+	result=result.toFixed(10);
 	outPut.value=result;	
 }
 
